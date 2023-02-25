@@ -5,9 +5,6 @@ import sys
 import argparse
 from multiprocessing import Pool
 
-
-
-
 #create the parser 
 my_parser = argparse.ArgumentParser(description="List the content of the folder", formatter_class=argparse.ArgumentDefaultsHelpFormatter)
 
@@ -63,15 +60,8 @@ def threeVar(x, y, z):
     return square(answer)
 
 
-#working on cube roots
 
-    
-
-
-       
 # command line interface
-
-
 if args.multiply:
    print(mult(x=int(input("enter a value for x\n")), y=int(input("enter a value for y \n"))))
 
@@ -97,12 +87,10 @@ if args.add_polynomial:
 if args.three_vars:
     print(threeVar(x=int(input("Enter a value for x\n")), y=int(input("enter a value for y\n")), z=int(input("Enter a value for z\n"))))
     
-
 def main():
     print('Welcome to my first cli')
 
     pass
-
 
 if __name__=='__main':
     #todo's ---add multiprocesser with pool cpu cores below-----
