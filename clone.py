@@ -49,7 +49,6 @@ def clone_url(urlinput=str):
     request.close()
     return
     
-# Writing to sample.json
 
 if __name__ == '__main__':
     with Pool(5) as p:
