@@ -19,9 +19,6 @@ my_parser.add_argument('-d', '--divide', action='store_true', help="This will di
 my_parser.add_argument('-sp','--subtract_polynomial', action='store_true', help='this will subtract x^2 by y^2')
 my_parser.add_argument('-ap', '--add_polynomial', action='store_true', help="this will add x^2 plus y^2")
 my_parser.add_argument('-3v', '--three_vars', action='store_true', help="this will solve (x + y + z)^2")
-
-
-
 my_parser.add_argument('--square',action='store_true', help="Square x")
 
 args = my_parser.parse_args()
@@ -58,8 +55,6 @@ def add_polynomial(x, y):
 def threeVar(x, y, z):
     answer = x + y + z
     return square(answer)
-
-
 
 # command line interface
 if args.multiply:
