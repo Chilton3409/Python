@@ -13,8 +13,8 @@ current_dir= sys.argv[1]
 
 
 def create_archive(current_dir):
-    current_dir = os.getcwd()
-    archive_name = os.path.join(current_dir, 'myarchive')
+    
+    archive_name = os.path.join(str(current_dir), 'myarchive')
    
     root_dir = os.getcwd()
     return make_archive(archive_name, 'gztar', root_dir=root_dir)
