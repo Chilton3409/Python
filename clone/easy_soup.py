@@ -68,7 +68,10 @@ class easySoup(easy_requests.easyRequests):
 
             if choice == 1:
                 self.urlinput = str(input("enter a new url to scan \n"))
-                self.writeFile()                
+                self.writeFile()  
+            
+            else:
+                self.urlinput == None              
         except:
             return KeyError
           

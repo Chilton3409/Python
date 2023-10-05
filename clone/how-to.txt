@@ -1,0 +1,9 @@
+First to run from the command line
+you will need the following packages
+requests
+beautiful soup
+html5lib, for faster parsing with bs4
+or you could run pip3 install -r requirements.txt after cloning 
+this repo.
+
+then run ./requests_commands.py -h to get started.

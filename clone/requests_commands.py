@@ -9,7 +9,7 @@ class Commands(easy_soup.easySoup):
     def __init__(self):
         self.arguments = argparse.ArgumentParser(description="Combining requests and beatiful soup into a basic interactive static code anaylsis tool",formatter_class=argparse.ArgumentDefaultsHelpFormatter)
         self.urlinput = str(input("Enter a valid url for inspection:\n"))
-
+        
 
     def arg(self):
         #        self.arguments.add_argument('-t', '--text', action='store_true', help='this will move write the text response to html')
