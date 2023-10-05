@@ -1,12 +1,12 @@
 # Python
 Command line scripts than can acheive various tasks.
-Calculator.py 
-A cli terminal program that can do polynomial algebra.
+arg-parse
+scripts that come together to allow for easy argument parsing
 
-Image_editor.py 
-A cli based image editing script than can bulk edit a directory of photos and ask you where to store them
+clone
+uses beautiful soup and the requests library to interactively parse the internet from the command line
 
-using_requests.py
-A cli script that can either clone a url response text and write it to an html file, or view the response as json in the editor
+math
+a command line interface that can allows the user to solve algebra problems from the command line.
 
 
