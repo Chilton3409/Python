@@ -4,6 +4,6 @@ requests
 beautiful soup
 html5lib, for faster parsing with bs4
 or you could run pip3 install -r requirements.txt after cloning 
-this repo.
+this repo after creating a virtual environment.
 
 then run ./requests_commands.py -h to get started.
